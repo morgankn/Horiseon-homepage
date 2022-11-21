@@ -22,9 +22,10 @@ body {
 
 .header h1 .seo {
     color: #d9dcd6;
+   
 }
 
-.header div {
+section {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,13 +33,17 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
+ul {
     list-style-type: none;
+    float: right;
+    padding-bottom: 30px;
 }
 
-.header div ul li {
+li {
     display: inline-block;
     margin-left: 25px;
+    float: right;
+    padding-bottom: 30px;
 }
 
 a {
